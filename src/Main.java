@@ -19,7 +19,7 @@ public class Main {
             {
                 int k = (j - 1) % 26;
                 int l = 65 + k;
-                temp.insert(0, Character.toString((char) l));
+                temp.insert(0, (char) l);
                 j = (j - k) / 26;
             }
             toWrite.append(temp.toString());
